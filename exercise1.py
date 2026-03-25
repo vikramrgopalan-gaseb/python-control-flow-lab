@@ -15,11 +15,11 @@
 # - Utilize the `in` operator to check for vowels.
 # - Ensure to provide feedback for non-alphabetical or invalid entries.
 
-def check_letter():
+#def check_letter():
     # Your control flow logic goes here
 
 # Call the function
-check_letter()
+#check_letter()
 
 
 def check_letter():
