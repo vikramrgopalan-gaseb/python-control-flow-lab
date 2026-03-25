@@ -20,3 +20,23 @@ def check_letter():
 
 # Call the function
 check_letter()
+
+
+def check_letter():
+    # Prompt the user for input
+    letter = input("Please enter a letter (a-z or A-Z): ").lower()
+
+    # Check if the input is a single alphabetical character
+    if len(letter) == 1 and letter.isalpha():
+        # Define vowels
+        vowels = 'aeiou'
+        
+        if letter in vowels:
+            print(f"The letter {letter} is a vowel.")
+        else:
+            print(f"The letter {letter} is a consonant.")
+    else:
+        print("Invalid input. Please enter a single letter from the alphabet.")
+
+# Call the function
+check_letter()
