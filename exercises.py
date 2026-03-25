@@ -18,3 +18,6 @@ def print_greeting():
 
 # Call the function
 print_greeting()
+
+
+# ADD THE OTHER EXERCISES DOWN HERE
